@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="Es-AR">
+<head>
+    <meta name="author" content="Ferreyra Shaiel, Bruno Singh, Delfina Diaz, Ruben Albarracin, Gonzalo Farias" />
+    <meta name="description" content="Inspiracion en el bar Don Enrique de Ruben" />
+    <meta name="keywords" content="Comida" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Don Enrique</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+    <!-- Link Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="./css/estilos.css" />
+</head>
+<body>
+  <header>
+    <!-- SECCION NAVBAR PRINCIPAL -->
+    <nav class="navbar navbar-expand-lg bg-withe ">
+      <div class="d-flex justify-content-space-between aling-items-center margin-80-px">
+        <a class="navbar-brand" href="#"><img src="./img/logo-letra.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-black" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="#">Nuestra carta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled text-black" aria-disabled="true">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Producto" aria-label="Producto">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+<main>
+<!-- SECCION CARROUSEL -->
+<div id="carouselExampleDark" class="carousel carousel-dark slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="./img/birra-golden.jpg" class="d-block w-100" alt="..." width="950"  height="850">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>BIRRA GOLDEN</h5>
+        <p>Se destaca por su color dorado pálido y su sabor suave y refrescante. Es una cerveza ligera y fácil de beber.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="./img/birra-honey.jpg" class="d-block w-100" alt="..." width="950"  height="850">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>BIRRA HONEY</h5>
+        <p>Esta variedad se caracteriza por su sabor dulce y floral, proporcionado por la adición de miel durante el proceso de elaboración.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./img/birra-ipa.jpg" class="d-block w-100" alt="..." width="950"  height="850">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>BIRRA IPA</h5>
+        <p>Las IPA son cervezas de alta fermentación, conocidas por su sabor amargo y lupulado. Presentan un amplio rango de aromas y sabores, desde cítricos y florales hasta resinosos y tropicales.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./img/birra-irish.jpg" class="d-block w-100" alt="..." width="950"  height="850">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>BIRRA IRISH</h5>
+        <p>Originaria de Irlanda, esta cerveza suele ser de color rojizo y tiene un sabor maltoso y ligeramente tostado. Su cuerpo es moderado y su final es ligeramente seco. Es una cerveza tradicional y popular en su país de origen.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- SECCION CARDS -->
+<div class="container text-center">    
+  <div class="row justify-content-center">
+      <div class="col-md-3 mb-4">
+          <div class="card" style="width: 15rem;">
+              <img style="width: auto" src="./img/menu-sandwichs.png" class="card-img-top" alt="Sanguche de milanesa">
+              <div class="card-body">
+              <h4 class="card-title">Sandwiches</h4>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-md-3 mb-4">
+          <div class="card" style="width: 15rem;">
+              <img style="width: auto" src="./img/menu-pizza.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                  <h5 class="card-title">Pizzas</h5>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-md-3 mb-4">
+          <div class="card" style="width: 15rem;">
+              <img style="height: auto;" src="./img/menu-papas.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                  <h5 class="card-title">Papas</h5>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="row justify-content-center">
+      <div class="col-md-3 mb-4">
+          <div class="card" style="width: 15rem;">
+              <img style="width: auto" src="./img/menu-platos.png" class="card-img-top" alt="Sanguche de milanesa">
+              <div class="card-body">
+              <h4 class="card-title">Al plato</h4>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-3 mb-4">
+          <div class="card" style="width: 15rem;">
+              <img style="width: auto" src="./img/menu-burgers.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                  <h5 class="card-title">Hamburguesas</h5>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-3 mb-4">
+          <div class="card" style="width: 15rem;">
+              <img style="width: auto" src="./img/menu-bebidas.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                  <h5 class="card-title">Bebidas</h5>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+ <!-- SECCION MAPA Y CONTACTO -->
+ <div id="contacto" class="container my-4 mt-3">
+  <div class="row">
+    <div class="mapa col-md-6 d-flex justify-content-center align-items-center">
+      <div class="caja-ifreme p-3 d-flex justify-content-center align-items-center">
+        <iframe class="img-fuid border border-secondary sm p-3 mb-5 rounded"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14185.594152522546!2d-65.5549445!3d-27.2693869!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5805b4efb733a1d0!2sDon%20Enrique%2C%20beer%20and%20food!5e0!3m2!1ses!2sar!4v1617759259630!5m2!1ses!2sar"
+          width="600" height="350" style="border: 0" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+    <div class="formulario col-md-4 p-2 text-primary">
+      <section id="contacto" class="seccion">
+        <div class="container">
+          <h2 class="text-star text-center">Contacto</h2>
+          <form>
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input type="text" class="form-control" placeholder="Nombre" />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" placeholder="email" />
+            </div>
+            <div class="mb-3">
+              <label for="mensaje" class="form-label">Mensaje</label>
+              <textarea class="form-control" placeholder="introduce un mesaje "></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+</main>   
+<!-- SECCION FOOTER -->
+<footer class="py-4">
+  <div class="row d-flex flex-column justify-content-center align-items-center text-center bg-withe">
+    <div class="logo mb-3">
+      <img src="./img/logo.png" alt="Logo" class="img-fluid" width="100" />
+    </div>
+    <div class="socialIcons">
+      <a href=""><i class="fa-brands fa-facebook"></i></a>
+      <a href=""><i class="fa-brands fa-instagram"></i></a>
+  </div>
+    <div class="row w-100 d-flex justify-content-center">
+      <div class="col-10 col-md-4 mb-3">
+        <a href="#" class="text-black d-block">Política de privacidad</a>
+        <a href="#" class="text-black d-block">Términos y condiciones</a>
+      </div>
+    </div>
+    <hr class="my-4" />
+    <p class="copyright mt-3">Copyright &copy;2024; Diseñado por <span class="Designer">Bruno, Shaiel, Ruben, Delfina, Gonzalo</span></p>
+  </div>
+</footer>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
